@@ -5,7 +5,6 @@
 # <p align="center"> Wope (wope.com) Clone </p>
  <b align="center">Making homepage clone example of wope.com site with Angular framework.</b>
  
-
 ## Badges
 
 Use it as you want
