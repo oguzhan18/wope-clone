@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './sharred/navbar/navbar.component';
 import { NotifierComponent } from './sharred/notifier/notifier.component';
+import { LayoutComponent } from './components/layout/layout.component';
+import { FooterComponent } from './sharred/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    NotifierComponent
+    NotifierComponent,
+    LayoutComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

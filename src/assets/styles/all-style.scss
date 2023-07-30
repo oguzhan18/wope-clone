@@ -349,9 +349,7 @@ ul {
   height: 100%;
   inset: 0;
   left: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   opacity: 0;
@@ -509,8 +507,7 @@ ul {
 .hero .star-animation {
   height: 591px;
   left: calc(50% - 720px);
-  -webkit-mask-image: radial-gradient(43.27% 50% at 50% 50%, #fff 17.51%, rgba(255, 255, 255, 0) 100%);
-  mask-image: radial-gradient(43.27% 50% at 50% 50%, #fff 17.51%, rgba(255, 255, 255, 0) 100%);
+   mask-image: radial-gradient(43.27% 50% at 50% 50%, #fff 17.51%, rgba(255, 255, 255, 0) 100%);
   padding: 0 185px;
   pointer-events: none;
   position: absolute;
@@ -578,7 +575,7 @@ ul {
 }
 
 .hero-background-top {
-  background-image: url('wope/images/hero-background-top.png');
+  background-image: url('https://wope.com/images/hero/hero-background-top.png');
   height: 202px;
   margin-bottom: 85px;
   width: 100%
@@ -741,7 +738,7 @@ ul {
 }
 
 .hero-background-lights {
-  background: url('./wope/images/hero-background-lights.png');
+  background: url('https://wope.com/images/hero/hero-background-lights.png');
   height: 725px;
   left: 50%;
   position: absolute;
@@ -1212,8 +1209,7 @@ ul {
 @media (max-width: 1248px) {
   .creating-project-customers {
     left: -80px;
-    -webkit-mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, #fff 8.66%, #fff 91.34%, rgba(255, 255, 255, 0) 100%);
-    mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, #fff 8.66%, #fff 91.34%, rgba(255, 255, 255, 0) 100%);
+     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, #fff 8.66%, #fff 91.34%, rgba(255, 255, 255, 0) 100%);
     padding-left: 64px;
     position: relative;
     width: 518px
@@ -1519,8 +1515,7 @@ ul {
 .creating-project-box-faster {
   background-position: 0 100%;
   background-size: 100% auto;
-  -webkit-mask: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, #fff 33.33%);
-  mask: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, #fff 33.33%);
+   mask: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, #fff 33.33%);
   padding: 0 62px 8px;
   position: relative;
   width: 100%
@@ -1549,10 +1544,8 @@ ul {
   border-radius: 8px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
+   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+   -webkit-mask-composite: xor;
   mask-composite: exclude;
   padding: 1px;
   pointer-events: none;
@@ -1564,12 +1557,9 @@ ul {
   border-radius: 8px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  padding: 1px;
+   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+   -webkit-mask-composite: xor;
+   padding: 1px;
   pointer-events: none;
   position: absolute
 }
@@ -1596,7 +1586,7 @@ ul {
 
 .creating-project-box-faster-progress-icon {
   animation: progressIconRotate 2s linear infinite;
-  height: -moz-max-content;
+  
   height: max-content;
   height: 24px;
   position: relative;
@@ -1747,11 +1737,9 @@ ul {
   border-radius: 8px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -2166,7 +2154,7 @@ ul {
   background-position: 0 100%;
   background-size: 100% auto;
   height: 464px;
-  -webkit-mask: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, #fff 17.65%);
+  
   mask: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, #fff 17.65%);
   padding: 0 60px 8px
 }
@@ -2242,11 +2230,9 @@ ul {
   border-radius: 8px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -2256,7 +2242,7 @@ ul {
   bottom: 0;
   height: 546px;
   left: 0;
-  -webkit-mask: linear-gradient(180deg, rgba(255, 255, 255, 0) 10%, #fff 40%);
+   
   mask: linear-gradient(180deg, rgba(255, 255, 255, 0) 10%, #fff 40%);
   position: absolute;
   width: 100%
@@ -2885,7 +2871,6 @@ ul {
 .card-animation-seasonality-chart {
   bottom: 26px;
   left: 16px;
-  -webkit-mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 3.98%, #fff 9.11%, #fff 90.63%, rgba(255, 255, 255, 0) 96.3%);
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 3.98%, #fff 9.11%, #fff 90.63%, rgba(255, 255, 255, 0) 96.3%);
   -webkit-mask-position: -16px -16px;
   mask-position: -16px -16px;
@@ -3090,11 +3075,9 @@ ul {
   border-radius: 8px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -3126,7 +3109,6 @@ ul {
 }
 
 .card-animation-mobile-chart {
-  -webkit-mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 3.98%, #fff 9.11%, #fff 90.63%, rgba(255, 255, 255, 0) 96.3%);
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 3.98%, #fff 9.11%, #fff 90.63%, rgba(255, 255, 255, 0) 96.3%);
   position: absolute;
   top: 55px;
@@ -3267,11 +3249,9 @@ ul {
   border-radius: 8px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -3497,14 +3477,12 @@ ul {
 
 .card-animation-cannibalization {
   height: 180px;
-  -webkit-mask-image: linear-gradient(180deg, #0b0217 74.65%, rgba(11, 2, 23, 0) 100%);
   mask-image: linear-gradient(180deg, #0b0217 74.65%, rgba(11, 2, 23, 0) 100%)
 }
 
 .card-animation-cannibalization-chart {
   height: 100%;
   left: 0;
-  -webkit-mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 3.98%, #fff 9.11%, #fff 90.63%, rgba(255, 255, 255, 0) 96.3%);
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 3.98%, #fff 9.11%, #fff 90.63%, rgba(255, 255, 255, 0) 96.3%);
   overflow: hidden;
   position: absolute;
@@ -3553,11 +3531,9 @@ ul {
   border-radius: 6px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -3572,11 +3548,9 @@ ul {
   border-radius: 6px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -3591,11 +3565,9 @@ ul {
   border-radius: 6px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -3825,8 +3797,7 @@ card-animation-market-text-label {
   bottom: 0;
   height: 156px;
   left: 0;
-  -webkit-mask-image: radial-gradient(50.96% 100% at 50% 100%, #fff 45.83%, rgba(255, 255, 255, 0) 100%);
-  mask-image: radial-gradient(50.96% 100% at 50% 100%, #fff 45.83%, rgba(255, 255, 255, 0) 100%);
+   mask-image: radial-gradient(50.96% 100% at 50% 100%, #fff 45.83%, rgba(255, 255, 255, 0) 100%);
   mix-blend-mode: overlay;
   overflow: hidden;
   position: absolute;
@@ -3964,11 +3935,9 @@ card-animation-market-text-label {
   border-radius: 99px;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -4091,16 +4060,14 @@ card-animation-market-text-label {
 
 .card-animation-opportunity {
   height: 216px;
-  -webkit-mask-image: linear-gradient(180deg, #0b0217 74.65%, rgba(11, 2, 23, 0) 100%);
-  mask-image: linear-gradient(180deg, #0b0217 74.65%, rgba(11, 2, 23, 0) 100%);
+   mask-image: linear-gradient(180deg, #0b0217 74.65%, rgba(11, 2, 23, 0) 100%);
   position: relative
 }
 
 .card-animation-opportunity-background {
   height: 156px;
   left: 16px;
-  -webkit-mask-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #fff 16.96%, #fff 84.66%, rgba(255, 255, 255, 0) 100%);
-  mask-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #fff 16.96%, #fff 84.66%, rgba(255, 255, 255, 0) 100%);
+   mask-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #fff 16.96%, #fff 84.66%, rgba(255, 255, 255, 0) 100%);
   position: absolute;
   top: 16px;
   width: 364px
@@ -4123,8 +4090,7 @@ card-animation-market-text-label {
 .card-animation-opportunity-chart {
   height: 95px;
   left: 16px;
-  -webkit-mask-image: linear-gradient(180deg, #fff 55.88%, transparent 100%);
-  mask-image: linear-gradient(180deg, #fff 55.88%, transparent 100%);
+   mask-image: linear-gradient(180deg, #fff 55.88%, transparent 100%);
   position: absolute;
   top: 16px;
   width: 234px
@@ -4195,11 +4161,9 @@ card-animation-market-text-label {
   border-radius: 50%;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 2px;
   pointer-events: none;
   position: absolute
@@ -4225,8 +4189,7 @@ card-animation-market-text-label {
   right: 409px;
   top: 475px;
   transform: translate(100%);
-  transition: .45s cubic-bezier(.6, .6, 0, 1) opacity .1s, .45s cubic-bezier(.6, .6, 0, 1) transform .1s
-}
+ }
 
 .card-animation-opportunity-traffic > svg {
   margin-right: 8px
@@ -4395,8 +4358,7 @@ card-animation-market-text-label {
 
 .spreadsheets-tabs-wrapper {
   margin-left: -133px;
-  -webkit-mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, #fff 8.66%, #fff 91.34%, rgba(255, 255, 255, 0) 100%);
-  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, #fff 8.66%, #fff 91.34%, rgba(255, 255, 255, 0) 100%);
+   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0, #fff 8.66%, #fff 91.34%, rgba(255, 255, 255, 0) 100%);
   padding: 0 133px;
   width: 1466px
 }
@@ -4602,11 +4564,9 @@ card-animation-market-text-label {
   border-radius: 50%;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -4758,8 +4718,7 @@ card-animation-market-text-label {
 .spreadsheets-table-inner {
   height: 367px;
   margin: 0 auto;
-  -webkit-mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 6.62%, #fff 19.85%);
-  mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 6.62%, #fff 19.85%);
+   mask-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 6.62%, #fff 19.85%);
   -webkit-mask-position: -20%;
   mask-position: -20%;
   -webkit-mask-size: 100% 120%;
@@ -5188,8 +5147,7 @@ card-animation-market-text-label {
 .tags-automation-animation-in-view img {
   animation: tagsAnimation 5s cubic-bezier(.6, .6, 0, 1) infinite;
   opacity: 1 !important;
-  transition-delay: 0 !important
-}
+ }
 
 .tags-automation-animation-tags {
   height: 100%;
@@ -5897,8 +5855,7 @@ card-animation-market-text-label {
 }
 
 .technical-tracking {
-  background-image: linear-gradient(129.44deg, rgba(169, 163, 194, .28) .84%, rgba(169, 163, 194, .056) 20.97%), #0a0118;
-  border-radius: 12px;
+   border-radius: 12px;
   height: 360px;
   width: 360px
 }
@@ -6477,11 +6434,9 @@ card-animation-market-text-label {
   border-radius: 50%;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -6499,11 +6454,9 @@ card-animation-market-text-label {
   border-radius: 50%;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -6535,11 +6488,9 @@ card-animation-market-text-label {
   border-radius: 50%;
   content: "";
   inset: 0;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  
   mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+  
   padding: 1px;
   pointer-events: none;
   position: absolute
@@ -6597,8 +6548,7 @@ card-animation-market-text-label {
 }
 
 .technical-shortcuts {
-  background-image: linear-gradient(129.44deg, rgba(169, 163, 194, .28) .84%, rgba(169, 163, 194, .056) 20.97%), #0a0118;
-  border-radius: 12px;
+   border-radius: 12px;
   height: 400px;
   width: 744px
 }
@@ -6996,7 +6946,7 @@ card-animation-market-text-label {
   background-color: #ffffff0a;
   border: 1px solid rgba(255, 255, 255, .1);
   border-radius: 999px;
-  height: -moz-max-content;
+  
   height: max-content;
   margin-right: 32px;
   margin-top: 7px;
